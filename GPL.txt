@@ -1,0 +1,2 @@
+GPL offer letter
+Offer: Upon your request, we will provide you with a free version of a complete machine-readable copy of the source code for each of the programs listed above to be licensed under GPL. This offer is valid three years from receipt of the u-blox product to which these licensing terms apply. Send your request to: support@u-blox.com
