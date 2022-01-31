@@ -1,0 +1,460 @@
++------------+---------------------------+---------------+-----------+
+|ublox confidential                                                  |
+|The latest version of this document may be found at:                |
+|  https://github.com/u-blox/open-source-licenses-cellular           |
++------------+---------------------------+---------------+-----------+
+
+
+
+Encryption/Decryption
+=====================
+
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   Name     |   License type            |   Description |   Remarks |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           | AES-256       |           |
+|   aes256   |   BSD like                | encryption    |           |
+|            |                           | decryption    |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   sha      |   BSD like                | encryption    |           |
+|            |                           | decryption    |           |
++------------+---------------------------+---------------+-----------+
+
+
+LWM2M Client
+============
+
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   Name     |   License type            |   Description |   Remarks |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   TinyDTLS |   MIT License             |   DTLS        |           |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   Wakaama  |   Eclipse                 |   LWM2M       |           |
+|            |   Public License          |               |           |
+|            |   Eclipse Distrib License |               |           |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|  LIBCBOR   |   MIT License             |   LWM2M       |           | 
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+| er-coap-13 |   BSD                     |   LWM2M       |           |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|  Lua       |   MIT License             |   LWM2M       |           | 
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+
+
+FOTA Engine
+===========
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+|                   |                                              |                                      |           |
+|   Name            |   License type                               |   Description                        |   Remarks |
+|                   |                                              |                                      |           |
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+|                   |                                              |                                      |           |
+|   bzip2           |   BSD like                                   |   bzip2 Compression                  |           |
+|                   |                                              |                                      |           |
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+|                   |                                              |                                      |           |
+|   bsdiff          |   Free BSD license                           |   delta encoding                     |           |
+|                   |                                              |                                      |           |
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+|                   |                                              |                                      |           |
+|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     |           |
+|                   |   License                                    |                                      |           |
+|                   |                                              |                                      |           |
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+|                   |                                              |                                      |           |
+|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           |
+|                   |                                              |   algorithm (ecdsa)                  |           |
+|                   |                                              |                                      |           |
++-------------------+----------------------------------------------+--------------------------------------+-----------+
+
+
+
+Encryption/Decryption
+=====================
+
+/*******************************************************************************
+
+aes256
+
+/****************************************************************************
+*   Byte-oriented AES-256 implementation.
+*   All lookup tables replaced with 'on the fly' calculations.
+*
+*   Copyright (c) 2007-2011 Ilya O. Levin, http://www.literatecode.com
+*   Other contributors: Hal Finney
+*
+*   Permission to use, copy, modify, and distribute this software for any
+*   purpose with or without fee is hereby granted, provided that the above
+*   copyright notice and this permission notice appear in all copies.
+*	
+*   THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+*   WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+*   MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+*   ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+*   WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+*   ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+*   OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+/*******************************************************************************
+
+sha
+
+/*******************************************************************************
+*
+*              Assignment : LTE
+*              CONFIDENTIAL
+*              Copyright (c) 2012, 4M Wireless. All rights reserved.
+*
+*              4M Wireless Ltd.
+*              960 Capability Green
+*              Luton, LU1 3PE
+*              United Kingdom
+*
+*              www.4mwireless.com 
+*
+/*******************************************************************************
+
+sha.h  
+
+/***************** See RFC 6234 for details. *******************/
+/*
+Copyright (c) 2011 IETF Trust and the persons identified as
+authors of the code.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or
+without modification, are permitted provided that the following
+conditions are met:
+
+- Redistributions of source code must retain the above
+copyright notice, this list of conditions and
+the following disclaimer.
+
+- Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following
+disclaimer in the documentation and/or other materials provided
+with the distribution.
+
+- Neither the name of Internet Society, IETF or IETF Trust, nor
+the names of specific contributors, may be used to endorse or
+promote products derived from this software without specific
+prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+/*******************************************************************************
+
+LWM2M Client
+============
+
+/*******************************************************************************
+
+TinyDTLS - 
+
+/*******************************************************************************
+/* dtls -- a very basic DTLS implementation
+ *
+ * Copyright (C) 2011--2013 Olaf Bergmann <bergmann@tzi.org>
+ * Copyright (C) 2013 Hauke Mehrtens <hauke@hauke-m.de>
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use, copy,
+ * modify, merge, publish, distribute, sublicense, and/or sell copies
+ * of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ 
+  /*******************************************************************************
+
+ Wakaama - LWM2M Client 
+ 
+ /*******************************************************************************
+ *
+ * Copyright (c) 2013, 2014 Intel Corporation and others.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * and Eclipse Distribution License v1.0 which accompany this distribution.
+ *
+ * The Eclipse Public License is available at
+ *    http://www.eclipse.org/legal/epl-v10.html
+ * The Eclipse Distribution License is available at
+ *    http://www.eclipse.org/org/documents/edl-v10.php.
+ *
+ * Contributors:
+ *    David Navarro, Intel Corporation - initial API and implementation
+ *    Fabien Fleutot - Please refer to git log
+ *    Toby Jaffey - Please refer to git log
+ *    Bosch Software Innovations GmbH - Please refer to git log
+ *    Pascal Rieux - Please refer to git log
+ *    
+ *******************************************************************************/
+
+
+/*******************************************************************************
+
+LIBCBOR
+
+/*******************************************************************************
+/*
+* Copyright (c) 2014-2017 Pavel Kalvoda <me@pavelkalvoda.com>
+*
+* libcbor is free software; you can redistribute it and/or modify
+* it under the terms of the MIT license. See LICENSE for details.
+*/
+
+
+
+/******************************************************************************
+
+  @file    er-coap-13.c
+
+  ---------------------------------------------------------------------------
+
+  Copyright (c) 2016-2018 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+  ---------------------------------------------------------------------------
+
+*****************************************************************************/
+
+/*
+* Copyright (c) 2013, Institute for Pervasive Computing, ETH Zurich
+* All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+* 1. Redistributions of source code must retain the above copyright
+*    notice, this list of conditions and the following disclaimer.
+* 2. Redistributions in binary form must reproduce the above copyright
+*    notice, this list of conditions and the following disclaimer in the
+*    documentation and/or other materials provided with the distribution.
+* 3. Neither the name of the Institute nor the names of its contributors
+*    may be used to endorse or promote products derived from this software
+*    without specific prior written permission.
+*
+* THIS SOFTWARE IS PROVIDED BY THE INSTITUTE AND CONTRIBUTORS ``AS IS'' AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+* ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE
+* FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+* OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+* LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+* SUCH DAMAGE.
+*
+* This file is part of the Contiki operating system.
+*/
+
+/**
+* \file
+*      An implementation of the Constrained Application Protocol (draft 12)
+* \author
+*      Matthias Kovatsch <kovatsch@inf.ethz.ch>
+* \contributors
+*    David Navarro, Intel Corporation - Adapt to usage in liblwm2m
+*/
+
+
+*****************************************************************************/
+
+LUA:
+
+/******************************************************************************
+* Copyright (C) 1994-2017 Lua.org, PUC-Rio.
+*
+* Permission is hereby granted, free of charge, to any person obtaining
+* a copy of this software and associated documentation files (the
+* "Software"), to deal in the Software without restriction, including
+* without limitation the rights to use, copy, modify, merge, publish,
+* distribute, sublicense, and/or sell copies of the Software, and to
+* permit persons to whom the Software is furnished to do so, subject to
+* the following conditions:
+*
+* The above copyright notice and this permission notice shall be
+* included in all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+* EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+* IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+* CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+* TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+* SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+******************************************************************************/
+
+
+
+
+
+FOTA Engine
+===========
+
+
+--------------------------------------------------------------------------
+bzip2 is distributed under a BSD-like License:
+
+This program, "bzip2", the associated library "libbzip2", and all
+documentation, are copyright (C) 1996-2010 Julian R Seward.  All
+rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. The origin of this software must not be misrepresented; you must 
+   not claim that you wrote the original software.  If you use this 
+   software in a product, an acknowledgment in the product 
+   documentation would be appreciated but is not required.
+
+3. Altered source versions must be plainly marked as such, and must
+   not be misrepresented as being the original software.
+
+4. The name of the author may not be used to endorse or promote 
+   products derived from this software without specific prior written 
+   permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*****************************************************************************************************
+
+
+
+bsdiff
+
+/*******************************************************************************
+Copyright 2003-2005 Colin Percival
+All rights reserved
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted providing that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+****************************************************
+
+mendsleybsdiff 
+
+/*******************************************************************************
+
+Copyright 2003-2005 Colin Percival
+Copyright 2012 Matthew Endsley
+All rights reserved
+Redistribution and use in source and binary forms, with or without
+modification, are permitted providing that the following conditions 
+are met:
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+/*******************************************************************************
+
+EASY-ECC
+
+/*******************************************************************************
+Copyright (c) 2013, Kenneth MacKay
+All rights reserved.
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+/*******************************************************************************
+
+
