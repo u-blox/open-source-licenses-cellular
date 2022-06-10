@@ -128,7 +128,10 @@ Other
 |  libcoap   |        BSD like           |               |           |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
-
+|            |                           |               |           |
+|  uthash    |        BSD like           |used by libocap|           |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
 
 Encryption/Decryption
 =====================
@@ -1366,5 +1369,16 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+/*******************************************************************************
+
+/*******************************************************************************
+
+uthash
+
+libcoap uses uthash.h and utlist.h from Troy D. Hanson
+(https://troydhanson.github.io/uthash/). These files use the revised
+BSD license (BSD-1-Clause license) as included in these two source
+files.
 
 /*******************************************************************************
