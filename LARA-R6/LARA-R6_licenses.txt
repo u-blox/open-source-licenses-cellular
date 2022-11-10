@@ -6,12 +6,8 @@ Encryption/Decryption
 |   Name     |   License type            |   Description |   Remarks |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
-|            |                           | AES-256       |           |
-|   aes256   |   BSD like                | encryption    |           |
-|            |                           | decryption    |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   sha      |   BSD like                | encryption    |           |
+|            |                           | IETF RFC 6234 |           |
+|   sha      |   BSD like                | encryption    | Oct. 2008 | 
 |            |                           | decryption    |           |
 +------------+---------------------------+---------------+-----------+
 
@@ -26,17 +22,17 @@ LWM2M Client
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
 |  Wakaama   |   Eclipse                 |   LWM2M       |           |
-|            |   Public License          |               |           |
+|            |   Public License          |               | 6/3/2018  | 
 |            |   Eclipse Distrib License |               |           |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-| er-coap-13 |   BSD                     |   LWM2M       |           |
-|            |                           |               |           |
+| er-coap-13 |   BSD                     |   LWM2M       |  wakaama  | 
+|            |                           |               | 6/3/2018  |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-| chttpclient|   MIT License             |   LWM2M       |           |
-|            |                           |               |           |
+| chttpclient|   MIT License             |   LWM2M       |  wakaama  |
+|            |                           |               | 6/3/2018  |
 +------------+---------------------------+---------------+-----------+
 
 
@@ -56,13 +52,13 @@ FOTA Engine
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     |           |
-|                   |   License                                    |                                      |           |
+|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     | 4.3       |
+|                   |   License                                    |                                      |           | 
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           |
-|                   |                                              |   algorithm (ecdsa)                  |           |
+|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           | 
+|                   |                                              |   algorithm (ecdsa)                  |Jan 27 2014|
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 
@@ -120,7 +116,7 @@ Other
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-|  uthash    |        BSD like           |used by libocap|           |
+|  uthash    |        BSD like           |used by libocap| 2.0.2     |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 
