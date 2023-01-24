@@ -5,7 +5,7 @@
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Uboot        |   GPL V2.0     |   Device Boot loader                                       |                                          |
+|   Uboot        |   GPL V2.0     |   Device Boot loader                                       |    v2009.01-rc1                          |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
@@ -18,15 +18,15 @@
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Zlib         |   BSD like     |   Archive library                                          |                                          |
+|   Zlib         |   BSD like     |   Archive library                                          |   1.2.5                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Yaffs        |   GPL V2.0     |   Yaffs2 file system                                       |                                          |
+|   Yaffs        |   GPL V2.0     |   Yaffs2 file system                                       |   16 Jul 2010                            |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   OpenSSL      |   BSD like     |   SSL stack                                                |                                          |
+|   OpenSSL      |   BSD like     |   SSL stack                                                |   1.0.2p                                 |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
@@ -34,79 +34,79 @@
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Alsa-lib     |   LGPL V2.1    |   Audio and MIDI functionality                             |                                          |
+|   Alsa-lib     |   LGPL V2.1    |   Audio and MIDI functionality                             |    0.2.0                                 |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Alsa-utils   |   GPL V2.0     |   Audio utils                                              |                                          |
+|   Alsa-utils   |   GPL V2.0     |   Audio utils                                              |    0.2.0                                 |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Elfcopy      |   GPL V2.0     |   Copy and translate between object formats                |                                          |
+|   Elfcopy      |   GPL V2.0     |   Copy and translate between object formats                |   Android 2.2.3 release 2.1              |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Elfutils     |   OSL1         |   ELF object files utils                                   |                                          |
+|   Elfutils     |   OSL1         |   ELF object files utils                                   |    0-97                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Gator daemon |   GPL V2.0     |   Collect target metrics                                   |                                          |
+|   Gator daemon |   GPL V2.0     |   Collect target metrics                                   |    5.9                                   |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Gator driver |   GPL V2.0     |   Collect target metrics                                   |                                          |
+|   Gator driver |   GPL V2.0     |   Collect target metrics                                   |    5.9                                   |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Icu4c        |   ICU 1.8.1    |   International Components for Unicode                     |   BSD Like                               |
+|   Icu4c        |   ICU 1.8.1    |   International Components for Unicode                     |   BSD Like     version 4.4.1             |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Iperf        |   BSD like     |   Tool for measuring performance                           |                                          |
+|   Iperf        |   BSD like     |   Tool for measuring performance                           |   2.0.4                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Libpcap      |   BSD like     |   Network traffic capture                                  |                                          |
+|   Libpcap      |   BSD like     |   Network traffic capture                                  |   0.9.8                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Libpng       |   BSD like     |   PNG reference library                                    |                                          |
+|   Libpng       |   BSD like     |   PNG reference library                                    |    1.2.46                                |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Libxml2      |   MIT          |   XML C parser                                             |   BSD like                               |
+|   Libxml2      |   MIT          |   XML C parser                                             |   BSD like     version 2.3.7             |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Svox         |   Apache 2.0   |                                                            |   BSD like                               |
+|   Svox         |   Apache 2.0   |                                                            |   BSD like    16 Jul. 2010               |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Tcpdump      |   BSD          |   Packet analyzer                                          |                                          |
+|   Tcpdump      |   BSD          |   Packet analyzer                                          |   3.9.8                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   safe-iop     |   BSD like     |   Safe integer operation library                           |                                          |
+|   safe-iop     |   BSD like     |   Safe integer operation library                           |   0.3.1                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   Bzip2        |   BSD like     |   Data compression library                                 |                                          |
+|   Bzip2        |   BSD like     |   Data compression library                                 |   1.0.6                                  |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   expat        |   MIT          |   XML parsing                                              |   BSD like                               |
+|   expat        |   MIT          |   XML parsing                                              |   BSD like         ver 2.0.1             |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   linuxigd     |   BSD like     |   UPnP Internet Gateway Device library                     |                                          |
+|   linuxigd     |   BSD like     |   UPnP Internet Gateway Device library                     |   1.0                                    |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   libupnp      |   BSD like     |   UPnP library                                             |                                          |
+|   libupnp      |   BSD like     |   UPnP library                                             |   1.6.20                                 |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 |                |                |                                                            |                                          |
-|   md5          |   BSD like     |   MD5 Message-Digest Algorithm                             |                                          |
+|   md5          |   BSD like     |   MD5 Message-Digest Algorithm                             |   included in yaffs                      |
 |                |                |                                                            |                                          |
 +----------------+----------------+------------------------------------------------------------+------------------------------------------+
 
@@ -121,63 +121,63 @@ The following licenses apply in addition to the above licenses.
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   wireless_tools |   GPL V2.0          |   Tools to manipulate the Wireless Extensions         |           |
+|   wireless_tools |   GPL V2.0          |   Tools to manipulate the Wireless Extensions         |   29      |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   wpa_supplicant |   BSD like          |   Supplicant to support WEP, WPA and WPA2             |           |
+|   wpa_supplicant |   BSD like          |   Supplicant to support WEP, WPA and WPA2             |   2.5     |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   php            |   PHP license 3.01  |   Hypertext Preprocessor for WebUI                    |           |
+|   php            |   PHP license 3.01  |   Hypertext Preprocessor for WebUI                    |   5       |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   fpm            |   BSD like          |   PHP extension                                       |           |
+|   fpm            |   BSD like          |   PHP extension                                       |  5.5.14   |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   gregbook       |   GPL V2.0          |   PHP extension                                       |           |
+|   gregbook       |   GPL V2.0          |   PHP extension                                       | included  |
+|                  |                     |                                                       | in Libpng |
++------------------+---------------------+-------------------------------------------------------+-----------+
+|                  |                     |                                                       |           |
+|   Zend           |   Zend license 2.00 |   PHP extension                                       |  2.0      |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   Zend           |   Zend license 2.00 |   PHP extension                                       |           |
+|   TSRM           |   BSD like          |   PHP extension                                       | 15/01/2015|
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   TSRM           |   BSD like          |   PHP extension                                       |           |
+|   phar           |   PHP license 3.01  |   PHP extension                                       |  2.0.2    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   phar           |   PHP license 3.01  |   PHP extension                                       |           |
+|   libmagic       |   BSD like          |   PHP extension                                       |  1.0.5    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   libmagic       |   BSD like          |   PHP extension                                       |           |
+|   oniguruma      |   BSD like          |   PHP extension                                       |  5.9.2    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   oniguruma      |   BSD like          |   PHP extension                                       |           |
+|   libmbfl        |   LGPL V2.1         |   PHP extension                                       | 24/10/2002|
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   libmbfl        |   LGPL V2.1         |   PHP extension                                       |           |
+|   pcrelib        |   BSD like          |   PHP extension                                       |  8.34     |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   pcrelib        |   BSD like          |   PHP extension                                       |           |
+|   libgd          |   BSD like          |   PHP extension                                       |  2.1.0    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   libgd          |   BSD like          |   PHP extension                                       |           |
+|   bcmath         |   LGPL V2.1         |   PHP extension                                       |  0.2      |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   bcmath         |   LGPL V2.1         |   PHP extension                                       |           |
-|                  |                     |                                                       |           |
-+------------------+---------------------+-------------------------------------------------------+-----------+
-|                  |                     |                                                       |           |
-|   minini         |   Apache 2.0        |   Minimal INI                                         |           |
+|   minini         |   Apache 2.0        |   Minimal INI                                         |  1.2B     |
 |                  |                     |   file parser                                         |           |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
@@ -186,19 +186,19 @@ The following licenses apply in addition to the above licenses.
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   dnsmasq        |   GPL V2.0          |   DNS, DHCP service deamon                            |           |
+|   dnsmasq        |   GPL V2.0          |   DNS, DHCP service deamon                            |  2.51     |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   pppoatm        |   GPL V2.0          |   PPP Over Asynchronous Transfer Mode (PPP extension) |           |
+|   pppoatm        |   GPL V2.0          |   PPP Over Asynchronous Transfer Mode (PPP extension) |  2.4.5    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   lwconfig       |   LGPL V2.1         |   Text database management                            |           |
+|   lwconfig       |   LGPL V2.1         |   Text database management                            |  1.4.8    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 |                  |                     |                                                       |           |
-|   Marvell Sd8787 |   GPL V2.0          |   Driver for Marvell SD8787 WiFi chipset              |           |
+|   Marvell Sd8787 |   GPL V2.0          |   Driver for Marvell SD8787 WiFi chipset              |   2011    |
 |                  |                     |                                                       |           |
 +------------------+---------------------+-------------------------------------------------------+-----------+
 
@@ -1121,7 +1121,7 @@ DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2008 Unicode, Inc. All rights reserved. Distributed
+Copyright Â© 1991-2008 Unicode, Inc. All rights reserved. Distributed
 under the Terms of Use in http://www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -1787,7 +1787,7 @@ permitted provided that due credit is given to the author and the
 OpenBSD project by leaving this copyright notice intact.
 
 
-Copyright (c) 1999 Kungliga Tekniska Högskolan
+Copyright (c) 1999 Kungliga Tekniska HÃ¶gskolan
 (Royal Institute of Technology, Stockholm, Sweden). 
 All rights reserved. 
 
@@ -2268,7 +2268,7 @@ OR SOFTWARE.
 
     COPYRIGHT AND PERMISSION NOTICE
 
-    Copyright ¬© 1991-2007 Unicode, Inc. All rights reserved. Distributed under
+    Copyright Â¬Â© 1991-2007 Unicode, Inc. All rights reserved. Distributed under
 the Terms of Use in http://www.unicode.org/copyright.html.
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -3855,7 +3855,7 @@ of the United Nations Convention on Contracts for the International
 Sale of Goods is expressly excluded. Any use of the Original Work
 outside the scope of this License or after its termination shall be
 subject to the requirements and penalties of the U.S. Copyright Act,
-17 U.S.C. § 101 et seq., the equivalent laws of other countries, and
+17 U.S.C. Â§ 101 et seq., the equivalent laws of other countries, and
 international treaty. This section shall survive the termination of
 this License.
 
