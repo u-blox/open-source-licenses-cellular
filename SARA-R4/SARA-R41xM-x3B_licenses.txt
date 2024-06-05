@@ -15,11 +15,11 @@ Encryption/Decryption
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           | AES-256       |           |
-|   aes256   |   BSD like                | encryption    |           |
+|   aes256   |   BSD like                | encryption    |   2009    |
 |            |                           | decryption    |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-|   sha      |   BSD like                | encryption    |           |
+|   sha      |   BSD like                | encryption    | Oct. 2008 |
 |            |                           | decryption    |           |
 +------------+---------------------------+---------------+-----------+
 
@@ -33,26 +33,30 @@ LWM2M Client
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-|   TinyDTLS |   MIT License             |   DTLS        |           |
+|   TinyDTLS |   MIT License             |   DTLS        |2015-12-18 |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
+|  LIBCBOR   |   MIT License             |   LWM2M       | copyright | 
+|            |                           |               |   2017    |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
 |   Wakaama  |   Eclipse                 |   LWM2M       |           |
-|            |   Public License          |               |           |
+|            |   Public License          |               | 6/3/2018  |
 |            |   Eclipse Distrib License |               |           |
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-|  LIBCBOR   |   MIT License             |   LWM2M       |           | 
-|            |                           |               |           |
+| er-coap-13 |   BSD                     |   LWM2M       | wakaama   |
+|            |                           |               | 6/3/2018  |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-| er-coap-13 |   BSD                     |   LWM2M       |           |
-|            |                           |               |           |
+| chttpclient|   MIT License             |   LWM2M       |  wakaama  |
+|            |                           |               | 6/3/2018  |
 +------------+---------------------------+---------------+-----------+
 |            |                           |               |           |
-|  Lua       |   MIT License             |   LWM2M       |           | 
-|            |                           |               |           |
+|  Lua       |   MIT License             |   LWM2M       |  v 1.332  | 
+|            |                           |               |2016/12/22 |
 +------------+---------------------------+---------------+-----------+
 
 
@@ -64,21 +68,21 @@ FOTA Engine
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   bzip2           |   BSD like                                   |   bzip2 Compression                  |           |
+|   bzip2           |   BSD like                                   |   bzip2 Compression                  | 1.0.6     |
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   bsdiff          |   Free BSD license                           |   delta encoding                     |           |
+|   bsdiff          |   Free BSD license                           |   delta encoding                     | 4.3       |
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     |           |
-|                   |   License                                    |                                      |           |
+|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     | 4.3       |
+|                   |   License                                    |                                      |           | 
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 |                   |                                              |                                      |           |
-|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           |
-|                   |                                              |   algorithm (ecdsa)                  |           |
+|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           | 
+|                   |                                              |   algorithm (ecdsa)                  |Jan 27 2014|
 |                   |                                              |                                      |           |
 +-------------------+----------------------------------------------+--------------------------------------+-----------+
 
@@ -92,22 +96,21 @@ SCL
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |Helper library |           |
-| mbed-coap  |        BSD like           |to support COAP|           |
+| mbed-coap  |       Apache 2.0          |to support COAP| 4.8.0     |
 |            |                           |in SCL         |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |Helper library |           |
-| mbed-trace |        BSD like           |to support DTLS|           |
+| mbed-trace |       Apache 2.0          |to support DTLS| 1.3.0     |
 |            |                           |in SCL         |           |
 +------------+---------------------------+---------------+-----------+
 | nanostack- |                           |Helper library |           |
-| libservice |        BSD like           |to support DTLS|           |
+| libservice |       Apache 2.0          |to support DTLS| 3.1.0     |
 |            |                           |in SCL         |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |Helper library |           |
-| mbedtls    |        BSD like           |to support DTLS|           |
+| mbedtls    |       Apache 2.0          |to support DTLS| 2.13.0    |
 |            |                           |in SCL         |           |
 +------------+---------------------------+---------------+-----------+
-
 
 
 Root of Trust
@@ -119,11 +122,27 @@ Root of Trust
 |            |                           |               |           |
 +------------+---------------------------+---------------+-----------+
 |            |                           |All            |           |
-| mbedtls    |        BSD like           |cryptographic  |           |
+| mbedtls    |       Apache 2.0          |cryptographic  | 2.16.6    |
 |            |                           |services       |           |
 +------------+---------------------------+---------------+-----------+
 
 
+
+Other
+=====
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|   Name     |   License type            |   Description |   Remarks |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|  libcoap   |        BSD like           |               | 3.2.1     |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
+|            |                           |               |           |
+|  uthash    |        BSD like           |used by libocap| 2.0.2     |
+|            |                           |               |           |
++------------+---------------------------+---------------+-----------+
 
 
 
@@ -344,6 +363,46 @@ LIBCBOR
 
 
 *****************************************************************************/
+
+/******************************************************************************
+
+https://github.com/sraboy/chttpclient
+
+ HTTPClient 1.1 10 Nov 2014
+
+ Author: Eitan Michaelson: noyasoft@gmail.com
+ Linux Porting and testing: Bob Wirka: bobwirka@rtcworks.com
+ 
+ DESCRIPTION
+ -----------
+
+ Highly portable API written in C that implements the client side of the HTTP 1.1 
+ protocol as defined in RFC 2616,2617. 
+ Can be ported to any platform that supports standard C and Berkeley sockets.           
+
+ LICENSE
+ -------
+ HTTPClient is distributed under the MIT License:
+
+ Copyright (c) 2006 Eitan Michaelson
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+ and associated documentation files (the "Software"), to deal in the Software without restriction, 
+ including without limitation the rights to use, copy, modify, merge, publish, distribute, 
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished 
+ to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies 
+ or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+ OTHER DEALINGS IN THE SOFTWARE.
+******************************************************************************/
+
 
 LUA:
 
@@ -1327,3 +1386,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
    
 limitations under the License.
+
+
+/*******************************************************************************
+
+uthash
+
+libcoap uses uthash.h and utlist.h from Troy D. Hanson
+(https://troydhanson.github.io/uthash/). These files use the revised
+BSD license (BSD-1-Clause license) as included in these two source
+files.
+
+/*******************************************************************************
