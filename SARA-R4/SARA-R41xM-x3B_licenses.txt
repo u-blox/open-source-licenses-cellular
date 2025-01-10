@@ -128,21 +128,6 @@ Root of Trust
 
 
 
-Other
-=====
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|  libcoap   |        BSD like           |               | 3.2.1     |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|  uthash    |        BSD like           |used by libocap| 2.0.2     |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
 
 
 
@@ -1388,13 +1373,3 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-/*******************************************************************************
-
-uthash
-
-libcoap uses uthash.h and utlist.h from Troy D. Hanson
-(https://troydhanson.github.io/uthash/). These files use the revised
-BSD license (BSD-1-Clause license) as included in these two source
-files.
-
-/*******************************************************************************
