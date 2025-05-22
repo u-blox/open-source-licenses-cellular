@@ -1,0 +1,430 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+    "bomFormat": "CycloneDX",
+    "components": [
+        {
+            "bom-ref": "wakaama-lwm2m-client-06-03-2018",
+            "description": "Wakaama LWM2M Client",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Eclipse Public License / Eclipse Distrib License"
+                    }
+                }
+            ],
+            "name": "Wakaama LWM2M Client",
+            "properties": [
+                {
+                    "remarks": "LWM2M Client"
+                },
+                {
+                    "url": "https://projects.eclipse.org/projects/iot.wakaama"
+                }
+            ],
+            "type": "library",
+            "version": "6/3/2018"
+        },
+        {
+            "bom-ref": "libcoap-3-2-1",
+            "description": "CoAP",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD like"
+                    }
+                }
+            ],
+            "name": "libcoap",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://libcoap.net/"
+                }
+            ],
+            "type": "library",
+            "version": "3.2.1"
+        },
+        {
+            "bom-ref": "wakaama-lwm2m-er-coap-13-06-03-2018",
+            "description": "Wakaama LWM2M Client - er-coap-13 support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD"
+                    }
+                }
+            ],
+            "name": "er-coap-13",
+            "properties": [
+                {
+                    "remarks": "LWM2M Client"
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "6/3/2018"
+        },
+        {
+            "bom-ref": "libcoap-uthash-2-0-2",
+            "description": "LibCoap - hash table support",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD like"
+                    }
+                }
+            ],
+            "name": "uthash",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "2.0.2"
+        },
+        {
+            "bom-ref": "wakaama-lwm2m-chttpclient-06-03-2018",
+            "description": "Wakaama LWM2M Client - http client support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT License"
+                    }
+                }
+            ],
+            "name": "chttpclient",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "6/3/2018"
+        },
+        {
+            "bom-ref": "scl-mbed-coap-4-8-0",
+            "description": "SCL - helper library to support COAP",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "name": "mbed-coap",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://github.com/PelionIoT/mbed-coap"
+                }
+            ],
+            "type": "library",
+            "version": "4.8.0"
+        },
+        {
+            "bom-ref": "scl-mbed-trace-1-3-0",
+            "description": "SCL - helper library to support tracing and loging",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "name": "mbed-trace",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://github.com/PelionIoT/mbed-trace"
+                }
+            ],
+            "type": "library",
+            "version": "1.3.0"
+        },
+        {
+            "bom-ref": "scl-nanostack-libservice-3-1-0",
+            "description": "SCL - helper library to support mbed-client stack",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "name": "nanostack-libservice",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://github.com/PelionIoT/nanostack-libservice"
+                }
+            ],
+            "type": "library",
+            "version": "3.1.0"
+        },
+        {
+            "bom-ref": "scl-mbedtls-2-13-0",
+            "description": "SCL - Helper library to support DTLS",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "name": "mbedtls-2.13.0",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://github.com/Mbed-TLS/mbedtls"
+                }
+            ],
+            "type": "library",
+            "version": "2.13.0"
+        },
+        {
+            "bom-ref": "rot-mbedtls-2.16.6",
+            "description": "RoT (Root of Trust) - All cryptographic services",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "name": "mbedtls",
+            "properties": [
+                {
+                    "remarks": "TZ based"
+                },
+                {
+                    "url": "https://github.com/Mbed-TLS/mbedtls"
+                }
+            ],
+            "type": "library",
+            "version": "2.16.6"
+        },
+        {
+            "bom-ref": "fota-engine-bzip2-1-0-6",
+            "description": "FOTA Engine - bzip2 compression support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD like"
+                    }
+                }
+            ],
+            "name": "bzip2",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "1.0.6"
+        },
+        {
+            "bom-ref": "fota-engine-bsdiff-4-3",
+            "description": "FOTA Engine - delta encoding support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Free BSD license"
+                    }
+                }
+            ],
+            "name": "bsdiff",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "4.3"
+        },
+        {
+            "bom-ref": "fota-engine-mendsleybsdiff-4-3",
+            "description": "FOTA Engine - delta encoding support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Modified bsdiff. BSD 2-clause Simplified License"
+                    }
+                }
+            ],
+            "name": "mendsleybsdiff",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": "https://github.com/mendsley/bsdiff"
+                }
+            ],
+            "type": "library",
+            "version": "4.3"
+        },
+        {
+            "bom-ref": "fota-engine-easy-ecc-Jan-27-2014",
+            "description": "FOTA Engine - elliptical curve digital signature algorithm (ecdsa) support library",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD like"
+                    }
+                }
+            ],
+            "name": "easy-ecc",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "Jan 27 2014"
+        },
+        {
+            "bom-ref": "sha-oct-2008",
+            "description": "Encryption/Decryption IETF RFC 6234",
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD like"
+                    }
+                }
+            ],
+            "name": "sha",
+            "properties": [
+                {
+                    "remarks": ""
+                },
+                {
+                    "url": ""
+                }
+            ],
+            "type": "library",
+            "version": "Oct. 2008"
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "wakaama-lwm2m-client-06-03-2018"
+        },
+        {
+            "ref": "libcoap-3-2-1"
+        },
+        {
+            "ref": "wakaama-lwm2m-er-coap-13-06-03-2018"
+        },
+        {
+            "ref": "libcoap-uthash-2-0-2"
+        },
+        {
+            "ref": "wakaama-lwm2m-chttpclient-06-03-2018"
+        },
+        {
+            "ref": "scl-mbed-coap-4-8-0"
+        },
+        {
+            "ref": "scl-mbed-trace-1-3-0"
+        },
+        {
+            "ref": "scl-nanostack-libservice-3-1-0"
+        },
+        {
+            "ref": "scl-mbedtls-2-13-0"
+        },
+        {
+            "ref": "rot-mbedtls-2.16.6"
+        },
+        {
+            "ref": "fota-engine-bzip2-1-0-6"
+        },
+        {
+            "ref": "fota-engine-bsdiff-4-3"
+        },
+        {
+            "ref": "fota-engine-mendsleybsdiff-4-3"
+        },
+        {
+            "ref": "fota-engine-easy-ecc-Jan-27-2014"
+        },
+        {
+            "ref": "sha-oct-2008"
+        },
+        {
+            "dependsOn": [
+                "wakaama-lwm2m-client-06-03-2018",
+                "libcoap-3-2-1",
+                "wakaama-lwm2m-er-coap-13-06-03-2018",
+                "libcoap-uthash-2-0-2",
+                "wakaama-lwm2m-chttpclient-06-03-2018",
+                "scl-mbed-coap-4-8-0",
+                "scl-mbed-trace-1-3-0",
+                "scl-nanostack-libservice-3-1-0",
+                "scl-mbedtls-2-13-0",
+                "rot-mbedtls-2.16.6",
+                "fota-engine-bzip2-1-0-6",
+                "fota-engine-bsdiff-4-3",
+                "fota-engine-mendsleybsdiff-4-3",
+                "fota-engine-easy-ecc-Jan-27-2014",
+                "sha-oct-2008"
+            ],
+            "ref": "LARA-R6"
+        }
+    ],
+    "metadata": {
+        "component": {
+            "bom-ref": "LARA-R6",
+            "description": "u-blox OSS components",
+            "name": "LARA-R6",
+            "supplier": {
+                "name": "u-blox"
+            },
+            "type": "application",
+            "version": "1.0"
+        },
+        "manufacture": {
+            "name": "u-blox"
+        },
+        "properties": [
+            {
+                "name": "comment",
+                "value": "Document created by u-blox from data obtained via manual SCA process."
+            }
+        ],
+        "supplier": {
+            "name": "u-blox"
+        },
+        "timestamp": "2025-05-01T12:00:00.000000"
+    },
+    "specVersion": "1.5",
+    "version": 1
+}

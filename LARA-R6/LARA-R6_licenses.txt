@@ -1,128 +1,107 @@
-Encryption/Decryption
-=====================
+Name: Wakaama LWM2M Client
+License type: Eclipse Public License / Eclipse Distrib License
+Description: Wakaama LWM2M Client
+Version: 6/3/2018
+Remarks: LWM2M Client
+URL: https://projects.eclipse.org/projects/iot.wakaama
 
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           | IETF RFC 6234 |           |
-|   sha      |   BSD like                | encryption    | Oct. 2008 | 
-|            |                           | decryption    |           |
-+------------+---------------------------+---------------+-----------+
+Name: libcoap
+License type: BSD like
+Description: CoAP
+Version: 3.2.1
+Remarks: 
+URL: https://libcoap.net/
 
+Name: er-coap-13
+License type: BSD
+Description: Wakaama LWM2M Client - er-coap-13 support library
+Version: 6/3/2018
+Remarks: LWM2M Client
+URL: 
 
-LWM2M Client
-============
+Name: uthash
+License type: BSD like
+Description: LibCoap - hash table support
+Version: 2.0.2
+Remarks: 
+URL: 
 
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|  Wakaama   |   Eclipse                 |   LWM2M       |           |
-|            |   Public License          |               | 6/3/2018  | 
-|            |   Eclipse Distrib License |               |           |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-| er-coap-13 |   BSD                     |   LWM2M       |  wakaama  | 
-|            |                           |               | 6/3/2018  |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-| chttpclient|   MIT License             |   LWM2M       |  wakaama  |
-|            |                           |               | 6/3/2018  |
-+------------+---------------------------+---------------+-----------+
+Name: chttpclient
+License type: MIT License
+Description: Wakaama LWM2M Client - http client support library
+Version: 6/3/2018
+Remarks: 
+URL: 
 
+Name: mbed-coap
+License type: Apache 2.0
+Description: SCL - helper library to support COAP
+Version: 4.8.0
+Remarks: 
+URL: https://github.com/PelionIoT/mbed-coap
 
-FOTA Engine
-===========
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
-|                   |                                              |                                      |           |
-|   Name            |   License type                               |   Description                        |   Remarks |
-|                   |                                              |                                      |           |
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
-|                   |                                              |                                      |           |
-|   bzip2           |   BSD like                                   |   bzip2 Compression                  | 1.0.6     |
-|                   |                                              |                                      |           |
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
-|                   |                                              |                                      |           |
-|   bsdiff          |   Free BSD license                           |   delta encoding                     | 4.3       |
-|                   |                                              |                                      |           |
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
-|                   |                                              |                                      |           |
-|   mendsleybsdiff  |   Modified bsdiff. BSD 2-clause "Simplified" |   delta encoding                     | 4.3       |
-|                   |   License                                    |                                      |           | 
-|                   |                                              |                                      |           |
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
-|                   |                                              |                                      |           |
-|   easy-ecc        |  BSD like                                    |   elliptical curve digital signature |           | 
-|                   |                                              |   algorithm (ecdsa)                  |Jan 27 2014|
-|                   |                                              |                                      |           |
-+-------------------+----------------------------------------------+--------------------------------------+-----------+
+Name: mbed-trace
+License type: Apache 2.0
+Description: SCL - helper library to support tracing and loging
+Version: 1.3.0
+Remarks: 
+URL: https://github.com/PelionIoT/mbed-trace
 
+Name: nanostack-libservice
+License type: Apache 2.0
+Description: SCL - helper library to support mbed-client stack
+Version: 3.1.0
+Remarks: 
+URL: https://github.com/PelionIoT/nanostack-libservice
 
-SCL
-============
+Name: mbedtls-2.13.0
+License type: Apache 2.0
+Description: SCL - Helper library to support DTLS
+Version: 2.13.0
+Remarks: 
+URL: https://github.com/Mbed-TLS/mbedtls
 
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |Helper library |           |
-| mbed-coap  |       Apache 2.0          |to support COAP| 4.8.0     |
-|            |                           |in SCL         |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |Helper library |           |
-| mbed-trace |       Apache 2.0          |to support DTLS| 1.3.0     |
-|            |                           |in SCL         |           |
-+------------+---------------------------+---------------+-----------+
-| nanostack- |                           |Helper library |           |
-| libservice |       Apache 2.0          |to support DTLS| 3.1.0     |
-|            |                           |in SCL         |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |Helper library |           |
-| mbedtls    |       Apache 2.0          |to support DTLS| 2.13.0    |
-|            |                           |in SCL         |           |
-+------------+---------------------------+---------------+-----------+
+Name: mbedtls
+License type: Apache 2.0
+Description: RoT (Root of Trust) - All cryptographic services
+Version: 2.16.6
+Remarks: TZ based
+URL: https://github.com/Mbed-TLS/mbedtls
 
+Name: bzip2
+License type: BSD like
+Description: FOTA Engine - bzip2 compression support library
+Version: 1.0.6
+Remarks: 
+URL: 
 
+Name: bsdiff
+License type: Free BSD license
+Description: FOTA Engine - delta encoding support library
+Version: 4.3
+Remarks: 
+URL: 
 
-Root of Trust
-============
+Name: mendsleybsdiff
+License type: Modified bsdiff. BSD 2-clause Simplified License
+Description: FOTA Engine - delta encoding support library
+Version: 4.3
+Remarks: 
+URL: https://github.com/mendsley/bsdiff
 
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |All            |           |
-| mbedtls    |       Apache 2.0          |cryptographic  | 2.16.6    |
-|            |                           |services       |           |
-+------------+---------------------------+---------------+-----------+
+Name: easy-ecc
+License type: BSD like
+Description: FOTA Engine - elliptical curve digital signature algorithm (ecdsa) support library
+Version: Jan 27 2014
+Remarks: 
+URL: 
 
-
-Other
-=====
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|   Name     |   License type            |   Description |   Remarks |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|  libcoap   |        BSD like           |               | 3.2.1     |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-|            |                           |               |           |
-|  uthash    |        BSD like           |used by libocap| 2.0.2     |
-|            |                           |               |           |
-+------------+---------------------------+---------------+-----------+
-
-
-
-
+Name: sha
+License type: BSD like
+Description: Encryption/Decryption IETF RFC 6234
+Version: Oct. 2008
+Remarks: 
+URL:
 
 Encryption/Decryption
 =====================
